@@ -31,6 +31,9 @@
             <chartingToolkit:Chart  Grid.Row="2" Grid.Column="0" Name="lineChart" Title="Line Series Demo">
                 <chartingToolkit:LineSeries  DependentValuePath="Value" IndependentValuePath="Key" ItemsSource="{Binding}" IsSelectionEnabled="True"/>
             </chartingToolkit:Chart>
+            <chartingToolkit:Chart  Grid.Row="2" Grid.Column="1" Name="scatterChart" Title="Scatter Series Demo">
+                <chartingToolkit:ScatterSeries  DependentValuePath="Value" IndependentValuePath="Key" ItemsSource="{Binding}" IsSelectionEnabled="True"/>
+            </chartingToolkit:Chart>
         </Grid>
     </ScrollViewer>
 </Window>

@@ -37,6 +37,9 @@ namespace WpfToolkitChart
 
             //Setting data for line chart
             lineChart.DataContext = valueList;
+
+            //Setting data for line chart
+            scatterChart.DataContext = valueList;
         }
     }
 }
